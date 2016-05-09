@@ -14,9 +14,15 @@ background:#000000;
 }
 
 .navbar-default .navbar-nav>li>a {
-	background-color:#1589FF;
+	background-color:#1589ff;
 	color: #000000;
 }
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color:#151B54;
+	color: #ffffff;
+}
+
 
 pre {
 font-size:14px;
@@ -29,14 +35,7 @@ font-size:14px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar-inverse{
-background-color:#00FFFF;
-border-color:#203731;
-}	
 
-.navbar-inverse .navbar-brand{
-color:#00FFFF;
-}
 
 .btn-default{
 background-color:#fff;
